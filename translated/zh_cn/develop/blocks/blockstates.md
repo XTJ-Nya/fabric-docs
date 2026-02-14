@@ -42,7 +42,7 @@ Minecraft 已经有些自定义的类，允许你快速创建特定类型的方�
 
 ::: info
 
-请记住，方块状态文件可以在`assets/example-mod/blockstates`中被找到，方块状态文件的文件名应当匹配你在`ModBlocks`类里注册的方ID。 例如，如果方块ID为`condensed_oak_log`，这个文件就应当被命名为`condensed_oak_log.json`。
+请记住，方块状态文件可以在 `assets/example-mod/blockstates` 中找到，方块状态文件的名称应当匹配你在 `ModBlocks` 类中注册的方块的 ID。 例如，方块 ID 是 `condensed_oak_log`，那么文件名称就是 `condensed_oak_log.json`。
 
 更加深入了解方块状态文件中可用的所有修饰器，可看看 [Minecraft Wiki - 模型（方块状态）](https://zh.minecraft.wiki/w/Tutorial:模型/方块状态)页面。
 
