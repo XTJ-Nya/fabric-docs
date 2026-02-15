@@ -39,6 +39,8 @@ const latestVersion = fs
 // https://www.npmjs.com/package/vitepress-versioning-plugin
 export default defineVersionedConfig(
   {
+    base: '/fabric-docs/', 
+
     // Removes .html from the end of URLs.
     cleanUrls: true,
 
